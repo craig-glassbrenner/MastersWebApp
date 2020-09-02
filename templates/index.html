@@ -1,2 +1,27 @@
 {% extends "base.html" %}
-{% block title %}Masters{% endblock %} 
+{% block title %}Masters{% endblock %}
+{% block content %}
+<html>
+ <style>
+	div.transbox {
+		margin-top: 10px;
+		margin-left: 300px;
+		margin-right: 300px;
+		height: 500px;
+		background-color: #000000;
+		opacity: 0.6
+	}
+
+	div.transbox h1 {
+		margin: 5%;
+		font-weight: bold;
+		color: #ffffff;
+	}
+ </style>
+ <body>
+ 	<div class="transbox">
+ 		<h1 style="font-family:Palatino"> Rules: </h1>
+ 	</div>
+ </body>
+ </html>
+ {% endblock %}
